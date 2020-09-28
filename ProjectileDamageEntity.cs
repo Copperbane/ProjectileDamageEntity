@@ -227,7 +227,7 @@ namespace MultiplayerARPG
             // Hit walls or grounds → Explode
             if (hitted.layer != CurrentGameInstance.characterLayer &&
                 hitted.layer != CurrentGameInstance.itemDropLayer &&
-                !CurrentGameInstance.NonTargetLayersValues.Contains(hitted.layer))
+                !CurrentGameInstance.IgnoreRaycastLayersValues.Contains(hitted.layer))
             {
                 if (explodeDistance > 0f)
                 {
