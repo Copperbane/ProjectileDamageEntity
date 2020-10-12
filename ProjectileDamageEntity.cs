@@ -147,7 +147,7 @@ namespace MultiplayerARPG
                             continue;
                         }
 
-                        Impact(hit.transform.gameObject);
+                        Impact(hit.collider.transform.gameObject);
                         break;
                     }
                 point1 = point2;
