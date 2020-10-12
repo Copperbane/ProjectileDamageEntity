@@ -205,8 +205,8 @@ namespace MultiplayerARPG
             }
 
             //Check target
-            IDamageableEntity target = null;
-            if (FindTargetEntity(hitted, out target))
+            DamageableHitBox target = null;
+            if (FindTargetHitBox(hitted, out target))
             {
                 if (explodeDistance > 0f)
                 {
