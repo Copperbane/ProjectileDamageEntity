@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+//Version 1.61 and older
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace MultiplayerARPG
